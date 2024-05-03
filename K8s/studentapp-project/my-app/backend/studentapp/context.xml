@@ -24,8 +24,8 @@
     <WatchedResource>${catalina.base}/conf/web.xml</WatchedResource>
     <Resource name="jdbc/TestDB" auth="Container" type="javax.sql.DataSource"
                 maxTotal="100" maxIdle="30" maxWaitMilis="10000"
-                username="admin" password="Redhat123" driverClassName="com.mysql.jdbc.Driver"
-               url="jdbc:mysql://database-1.c9qiysgcck91.sa-east-1.rds.amazonaws.com:3306/studentapp"/>
+                username="admin" password="madhura123" driverClassName="com.mysql.jdbc.Driver"
+               url="jdbc:mysql://database-2.c5s8ocem00x1.us-east-1.rds.amazonaws.com:3306/studentapp"/>
 
 
     <!-- Uncomment this to disable session persistence across Tomcat restarts -->
